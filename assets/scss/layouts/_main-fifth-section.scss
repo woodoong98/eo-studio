@@ -1,0 +1,80 @@
+.main-fifth-container {
+}
+.main-fifth {
+  width: 85%;
+  height: 300px;
+  background-color: #292a30b8;
+  padding: 12px;
+  border-radius: 12px;
+  @media (min-width: 1200px) {
+    width: 300px;
+    height: 200px;
+    font-size: 14px;
+  }
+}
+.main-fifth-top {
+  @media (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 4px;
+  }
+}
+.fifth-top-content {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+.main-fifth-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #c0c0c0;
+}
+.main-fifth-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+}
+.main-fifth-name {
+  color: #c0c0c0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.main-fifth-grade {
+  font-size: 12px;
+  color: #fff;
+}
+.fifth-month-container {
+  padding: 10px 0;
+}
+.main-fifth-month {
+  width: 100px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid #c0c0c0;
+  border-radius: 12px;
+  color: #fff;
+}
+.main-fifth-content {
+  color: #c0c0c0;
+  font-size: 14px;
+  word-break: break-all;
+  line-height: 25px;
+  padding: 10px 0;
+}
+.content-font-white {
+  color: #fff;
+  font-weight: 500;
+}

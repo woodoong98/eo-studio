@@ -1,0 +1,46 @@
+.main-seventh-container {
+  width: 130px;
+  height: auto;
+  background-color: #292a30b8;
+  border-radius: 8px;
+  @media (min-width: 1200px) {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.main-seventh-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+.seventh-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  object-fit: cover;
+  @media (min-width: 1200px) {
+    width: 80px;
+    height: 80px;
+  }
+}
+.seventh-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.seventh-name {
+  font-weight: 700;
+  color: #fff;
+}
+.seventh-job {
+  color: #757575;
+  font-size: 14px;
+}

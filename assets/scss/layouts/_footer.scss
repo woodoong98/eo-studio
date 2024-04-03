@@ -1,0 +1,82 @@
+.footer-container{
+  background-color: #000;
+  color: #fff;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-title{
+  font-size: 20px;
+  font-weight: 800;
+}
+.footer-sentence{
+  font-size: 14px;
+}
+.footer-info{
+  padding: 20px 0;
+}
+.footer-font-gray{
+  color: #717171;
+}
+.footer-font-lightgray{
+  color: #c4c4c4;
+}
+.footer-icon-container{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+.footer-youtube-icon{
+  width: 28px;
+  height: 28px;
+}
+.footer-facebook-icon{
+  width: 24px;
+  height: 24px;
+}
+.only-mobile{
+  @media (min-width: 1199px) {
+    display: none;
+  }
+}
+.only-desktop{
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
+.footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-etc{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer-sns{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer-info-designation{
+  font-size: 18px;
+}
+.footer-info-content{
+  font-size: 14px;
+  @media (min-width: 1200px){
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+.footer-info-inquiry{
+  font-size: 14px;
+  @media (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
